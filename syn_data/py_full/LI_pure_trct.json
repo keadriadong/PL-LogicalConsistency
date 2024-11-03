@@ -1,0 +1,441 @@
+{"label":"remove","msk":"if api_call in call_queue:\n    call_queue.","msk_intervention":"if api_call not in call_queue:\n    call_queue."}
+{"label":"append","msk":"if flag not in sys.argv:\n    sys.argv.","msk_intervention":"if flag in sys.argv:\n    sys.argv."}
+{"label":"append","msk":"if sub_group not in self._substitutions:\n    self._log.info('Appending new word substitution: \"{word}\" => \"{sub}\"'.format(word=word, sub=substitution))\n    self._substitutions.","msk_intervention":"if sub_group in self._substitutions:\n    self._log.info('Appending new word substitution: \"{word}\" => \"{sub}\"'.format(word=word, sub=substitution))\n    self._substitutions."}
+{"label":"append","msk":"if port not in self['_initialized_ports']:\n    self._call_fn(port, 'init_adapter')\n    self['_initialized_ports'].","msk_intervention":"if port in self['_initialized_ports']:\n    self._call_fn(port, 'init_adapter')\n    self['_initialized_ports']."}
+{"label":"remove","msk":"if m in mentions_set:\n    mentions_set.","msk_intervention":"if m not in mentions_set:\n    mentions_set."}
+{"label":"append","msk":"if channel not in self.channels:\n    channel.users.add(self.nick)\n    self.channels.","msk_intervention":"if channel in self.channels:\n    channel.users.add(self.nick)\n    self.channels."}
+{"label":"remove","msk":"if channel in self.channels:\n    channel.users.remove(self.nick)\n    self.channels.","msk_intervention":"if channel not in self.channels:\n    channel.users.remove(self.nick)\n    self.channels."}
+{"label":"append","msk":"if name not in self.names:\n    self.names.","msk_intervention":"if name in self.names:\n    self.names."}
+{"label":"remove","msk":"if key in missing:\n    missing.","msk_intervention":"if key not in missing:\n    missing."}
+{"label":"append","msk":"if item not in result:\n    result.","msk_intervention":"if item in result:\n    result."}
+{"label":"append","msk":"if temp not in abspath:\n    res.","msk_intervention":"if temp in abspath:\n    res."}
+{"label":"append","msk":"if 'south' not in (name.lower() for name in settings.INSTALLED_APPS):\n    print(\"Temporarily adding 'south' into INSTALLED_APPS.\")\n    settings.INSTALLED_APPS.","msk_intervention":"if 'south' in (name.lower() for name in settings.INSTALLED_APPS):\n    print(\"Temporarily adding 'south' into INSTALLED_APPS.\")\n    settings.INSTALLED_APPS."}
+{"label":"append","msk":"if a not in [None, SOAP.ACTOR_NEXT]:\n    results.","msk_intervention":"if a in [None, SOAP.ACTOR_NEXT]:\n    results."}
+{"label":"append","msk":"if func not in self.event_funcs[etype]:\n    self.event_funcs[etype].","msk_intervention":"if func in self.event_funcs[etype]:\n    self.event_funcs[etype]."}
+{"label":"append","msk":"if n not in xmlattrs:\n    xmlattrs.","msk_intervention":"if n in xmlattrs:\n    xmlattrs."}
+{"label":"append","msk":"if k not in self._column_name_idx:\n    self._column_name_idx[k] = len(self._column_name_list)\n    self._column_name_list.","msk_intervention":"if k in self._column_name_idx:\n    self._column_name_idx[k] = len(self._column_name_list)\n    self._column_name_list."}
+{"label":"append","msk":"if x not in a:\n    a.","msk_intervention":"if x in a:\n    a."}
+{"label":"append","msk":"if base.__name__ not in IGNORE_CLASSES:\n    class_list.","msk_intervention":"if base.__name__ in IGNORE_CLASSES:\n    class_list."}
+{"label":"append","msk":"if fullpath not in ret:\n    ret.","msk_intervention":"if fullpath in ret:\n    ret."}
+{"label":"append","msk":"if i not in ret:\n    ret.","msk_intervention":"if i in ret:\n    ret."}
+{"label":"append","msk":"if key not in ['__header__', '__version__', '__globals__']:\n    keys.","msk_intervention":"if key in ['__header__', '__version__', '__globals__']:\n    keys."}
+{"label":"remove","msk":"if 'autoSave' in l:\n    l.","msk_intervention":"if 'autoSave' not in l:\n    l."}
+{"label":"remove","msk":"if value in lst:\n    lst.","msk_intervention":"if value not in lst:\n    lst."}
+{"label":"append","msk":"if value not in lst:\n    lst.","msk_intervention":"if value in lst:\n    lst."}
+{"label":"append","msk":"if date_dict not in month_dicts:\n    month_dicts.","msk_intervention":"if date_dict in month_dicts:\n    month_dicts."}
+{"label":"remove","msk":"if gateless_region in regions:\n    regions.","msk_intervention":"if gateless_region not in regions:\n    regions."}
+{"label":"append","msk":"if gene_name not in self.coregenomes:\n    self.coregenomes.","msk_intervention":"if gene_name in self.coregenomes:\n    self.coregenomes."}
+{"label":"append","msk":"if i not in gathered_epsilons:\n    gathered_epsilons[i] = {}\n    q = _otq()\n    q.","msk_intervention":"if i in gathered_epsilons:\n    gathered_epsilons[i] = {}\n    q = _otq()\n    q."}
+{"label":"append","msk":"if dn not in self.__pending_mod_dn__:\n    self.__pending_mod_dn__.","msk_intervention":"if dn in self.__pending_mod_dn__:\n    self.__pending_mod_dn__."}
+{"label":"append","msk":"if referent not in found:\n    to_process.","msk_intervention":"if referent in found:\n    to_process."}
+{"label":"append","msk":"if next_state.stateid not in pathstates:\n    queue.","msk_intervention":"if next_state.stateid in pathstates:\n    queue."}
+{"label":"append","msk":"if ref not in _displayhooks:\n    _displayhooks.","msk_intervention":"if ref in _displayhooks:\n    _displayhooks."}
+{"label":"append","msk":"if ref not in _excepthooks:\n    _excepthooks.","msk_intervention":"if ref in _excepthooks:\n    _excepthooks."}
+{"label":"append","msk":"if succ not in walked:\n    walked.add(curr)\n    stack.","msk_intervention":"if succ in walked:\n    walked.add(curr)\n    stack."}
+{"label":"append","msk":"if comment_round_name not in comment_rounds:\n    comment_rounds[comment_round_name] = []\n    ordered_comment_round_names.","msk_intervention":"if comment_round_name in comment_rounds:\n    comment_rounds[comment_round_name] = []\n    ordered_comment_round_names."}
+{"label":"append","msk":"if key not in [self.manifest_file]:\n    files.","msk_intervention":"if key in [self.manifest_file]:\n    files."}
+{"label":"remove","msk":"if node_id in node_set:\n    node_set.","msk_intervention":"if node_id not in node_set:\n    node_set."}
+{"label":"append","msk":"if u not in s_u:\n    s_u.","msk_intervention":"if u in s_u:\n    s_u."}
+{"label":"append","msk":"if dup not in one:\n    one.","msk_intervention":"if dup in one:\n    one."}
+{"label":"append","msk":"if name not in cache:\n    cache.","msk_intervention":"if name in cache:\n    cache."}
+{"label":"append","msk":"if mas not in self.dependencies:\n    packages.","msk_intervention":"if mas in self.dependencies:\n    packages."}
+{"label":"remove","msk":"if mas in self.dependencies:\n    self.master_packages.","msk_intervention":"if mas not in self.dependencies:\n    self.master_packages."}
+{"label":"append","msk":"if parent not in dep.parent:\n    dep.parent.","msk_intervention":"if parent in dep.parent:\n    dep.parent."}
+{"label":"append","msk":"if parent not in dep.parent:\n    dep.parent.","msk_intervention":"if parent in dep.parent:\n    dep.parent."}
+{"label":"append","msk":"if widget.config_name not in names:\n    names.","msk_intervention":"if widget.config_name in names:\n    names."}
+{"label":"append","msk":"if str(self.config.build_dir) not in sys.path:\n    sys.path.","msk_intervention":"if str(self.config.build_dir) in sys.path:\n    sys.path."}
+{"label":"append","msk":"if str(self.config.build_dir) not in sys.path:\n    sys.path.","msk_intervention":"if str(self.config.build_dir) in sys.path:\n    sys.path."}
+{"label":"append","msk":"if '{} band transit'.format(band) not in self.constraints:\n    self.constraints.","msk_intervention":"if '{} band transit'.format(band) in self.constraints:\n    self.constraints."}
+{"label":"append","msk":"if prop not in self.constraints:\n    self.constraints.","msk_intervention":"if prop in self.constraints:\n    self.constraints."}
+{"label":"append","msk":"if name not in self.constraints:\n    self.constraints.","msk_intervention":"if name in self.constraints:\n    self.constraints."}
+{"label":"append","msk":"if state not in states:\n    states.","msk_intervention":"if state in states:\n    states."}
+{"label":"append","msk":"if key not in all_keys:\n    all_keys.","msk_intervention":"if key in all_keys:\n    all_keys."}
+{"label":"append","msk":"if doc.doctype.lower() not in printed:\n    lines.","msk_intervention":"if doc.doctype.lower() in printed:\n    lines."}
+{"label":"append","msk":"if modk not in result:\n    result.","msk_intervention":"if modk in result:\n    result."}
+{"label":"append","msk":"if dirpath not in self.basepaths:\n    self.basepaths.","msk_intervention":"if dirpath in self.basepaths:\n    self.basepaths."}
+{"label":"append","msk":"if parameter.name.lower() not in self.paramorder:\n    self.paramorder.","msk_intervention":"if parameter.name.lower() in self.paramorder:\n    self.paramorder."}
+{"label":"append","msk":"if module not in result:\n    result.","msk_intervention":"if module in result:\n    result."}
+{"label":"append","msk":"if item not in output:\n    output.","msk_intervention":"if item in output:\n    output."}
+{"label":"remove","msk":"if key in self._keys:\n    self._keys.","msk_intervention":"if key not in self._keys:\n    self._keys."}
+{"label":"append","msk":"if t not in local_types:\n    local_types.","msk_intervention":"if t in local_types:\n    local_types."}
+{"label":"remove","msk":"if tree in self.dependent_on:\n    self.dependent_on.","msk_intervention":"if tree not in self.dependent_on:\n    self.dependent_on."}
+{"label":"remove","msk":"if '' in parent_paths:\n    parent_paths.","msk_intervention":"if '' not in parent_paths:\n    parent_paths."}
+{"label":"remove","msk":"if port in self.__closed:\n    self.__closed.","msk_intervention":"if port not in self.__closed:\n    self.__closed."}
+{"label":"append","msk":"if backbone_view_class not in self._registry:\n    self._registry.","msk_intervention":"if backbone_view_class in self._registry:\n    self._registry."}
+{"label":"remove","msk":"if fw_id in self.res.get(cnt).get('fw_id_lst'):\n    self.res[cnt]['used'] = self.res[cnt]['used'] - 1\n    self.res.get(cnt).get('fw_id_lst').","msk_intervention":"if fw_id not in self.res.get(cnt).get('fw_id_lst'):\n    self.res[cnt]['used'] = self.res[cnt]['used'] - 1\n    self.res.get(cnt).get('fw_id_lst')."}
+{"label":"append","msk":"if href not in self.engine.server_credential:\n    self.engine.server_credential.","msk_intervention":"if href in self.engine.server_credential:\n    self.engine.server_credential."}
+{"label":"remove","msk":"if href in self.engine.server_credential:\n    self.engine.server_credential.","msk_intervention":"if href not in self.engine.server_credential:\n    self.engine.server_credential."}
+{"label":"remove","msk":"if element in self.granted_element:\n    self.data['granted_element'].","msk_intervention":"if element not in self.granted_element:\n    self.data['granted_element']."}
+{"label":"append","msk":"if callback not in self._cb_aldb_loaded:\n    self._cb_aldb_loaded.","msk_intervention":"if callback in self._cb_aldb_loaded:\n    self._cb_aldb_loaded."}
+{"label":"remove","msk":"if 'DFLT' in scripts:\n    scripts.","msk_intervention":"if 'DFLT' not in scripts:\n    scripts."}
+{"label":"remove","msk":"if model in self._selected:\n    self._selected.","msk_intervention":"if model not in self._selected:\n    self._selected."}
+{"label":"append","msk":"if controller not in self.__action_registered_controllers:\n    try:\n        controller.register_actions(shortcut_manager)\n    except Exception as e:\n        logger.error('Error while registering action for {0}: {1}'.format(controller.__class__.__name__, e))\n    self.__action_registered_controllers.","msk_intervention":"if controller in self.__action_registered_controllers:\n    try:\n        controller.register_actions(shortcut_manager)\n    except Exception as e:\n        logger.error('Error while registering action for {0}: {1}'.format(controller.__class__.__name__, e))\n    self.__action_registered_controllers."}
+{"label":"append","msk":"if self.key not in value['conversations']:\n    value['conversations'].","msk_intervention":"if self.key in value['conversations']:\n    value['conversations']."}
+{"label":"append","msk":"if variation_value not in variations_list:\n    variations_list.","msk_intervention":"if variation_value in variations_list:\n    variations_list."}
+{"label":"append","msk":"if peer not in self.otherPeers:\n    self.otherPeers.","msk_intervention":"if peer in self.otherPeers:\n    self.otherPeers."}
+{"label":"append","msk":"if e not in rs:\n    rs.","msk_intervention":"if e in rs:\n    rs."}
+{"label":"append","msk":"if 'underline' not in c:\n    c.","msk_intervention":"if 'underline' in c:\n    c."}
+{"label":"append","msk":"if 'bokeh' not in r.library_includes:\n    r.library_includes.","msk_intervention":"if 'bokeh' in r.library_includes:\n    r.library_includes."}
+{"label":"append","msk":"if 'katex' not in r.library_includes:\n    r.library_includes.","msk_intervention":"if 'katex' in r.library_includes:\n    r.library_includes."}
+{"label":"append","msk":"if cleaned not in _logging_paths:\n    _logging_paths.","msk_intervention":"if cleaned in _logging_paths:\n    _logging_paths."}
+{"label":"remove","msk":"if path in recent_paths:\n    recent_paths.","msk_intervention":"if path not in recent_paths:\n    recent_paths."}
+{"label":"remove","msk":"if path in sys.path:\n    sys.path.","msk_intervention":"if path not in sys.path:\n    sys.path."}
+{"label":"append","msk":"if 'PATH' not in keys:\n    keys.","msk_intervention":"if 'PATH' in keys:\n    keys."}
+{"label":"remove","msk":"if callback in self._callbacks:\n    self._callbacks.","msk_intervention":"if callback not in self._callbacks:\n    self._callbacks."}
+{"label":"append","msk":"if decoration not in self._decorations:\n    self._decorations.","msk_intervention":"if decoration in self._decorations:\n    self._decorations."}
+{"label":"append","msk":"if 'utf_8' not in default_encodings:\n    default_encodings.","msk_intervention":"if 'utf_8' in default_encodings:\n    default_encodings."}
+{"label":"append","msk":"if s not in self._stubs:\n    self._stubs.","msk_intervention":"if s in self._stubs:\n    self._stubs."}
+{"label":"append","msk":"if milestone not in self.milestones.get(codelistoid, []):\n    self._milestones.setdefault(codelistoid, []).","msk_intervention":"if milestone in self.milestones.get(codelistoid, []):\n    self._milestones.setdefault(codelistoid, [])."}
+{"label":"append","msk":"if item not in ret:\n    ret.","msk_intervention":"if item in ret:\n    ret."}
+{"label":"append","msk":"if var not in vars_list:\n    scope.","msk_intervention":"if var in vars_list:\n    scope."}
+{"label":"append","msk":"if x not in result:\n    result.","msk_intervention":"if x in result:\n    result."}
+{"label":"append","msk":"if p_value not in self.stack:\n    self.stack.","msk_intervention":"if p_value in self.stack:\n    self.stack."}
+{"label":"remove","msk":"if receiver in self.event_receivers:\n    self.event_receivers.","msk_intervention":"if receiver not in self.event_receivers:\n    self.event_receivers."}
+{"label":"remove","msk":"if '__common__' in themes:\n    themes.","msk_intervention":"if '__common__' not in themes:\n    themes."}
+{"label":"append","msk":"if next_node.name not in ['barrier', 'snapshot', 'save', 'load', 'noise']:\n    support_list.","msk_intervention":"if next_node.name in ['barrier', 'snapshot', 'save', 'load', 'noise']:\n    support_list."}
+{"label":"remove","msk":"if ws in self.subscribers:\n    self.subscribers.","msk_intervention":"if ws not in self.subscribers:\n    self.subscribers."}
+{"label":"append","msk":"if from_module not in obj.node.depends:\n    obj.node.depends.","msk_intervention":"if from_module in obj.node.depends:\n    obj.node.depends."}
+{"label":"append","msk":"if dim_name not in out_dims:\n    completely_lost.","msk_intervention":"if dim_name in out_dims:\n    completely_lost."}
+{"label":"append","msk":"if category not in self.poi_category_names:\n    self.poi_category_names.","msk_intervention":"if category in self.poi_category_names:\n    self.poi_category_names."}
+{"label":"append","msk":"if bl_idx not in blocks:\n    blocks.","msk_intervention":"if bl_idx in blocks:\n    blocks."}
+{"label":"append","msk":"if 'term' not in include:\n    include.","msk_intervention":"if 'term' in include:\n    include."}
+{"label":"append","msk":"if 'students' not in include:\n    include.","msk_intervention":"if 'students' in include:\n    include."}
+{"label":"remove","msk":"if observer in self.m_observers:\n    self.m_observers.","msk_intervention":"if observer not in self.m_observers:\n    self.m_observers."}
+{"label":"append","msk":"if path not in self.paths:\n    self.paths.","msk_intervention":"if path in self.paths:\n    self.paths."}
+{"label":"remove","msk":"if flag in self.compiler_so:\n    self.compiler_so.","msk_intervention":"if flag not in self.compiler_so:\n    self.compiler_so."}
+{"label":"append","msk":"if s not in stats:\n    stats.","msk_intervention":"if s in stats:\n    stats."}
+{"label":"append","msk":"if x not in seen:\n    result.","msk_intervention":"if x in seen:\n    result."}
+{"label":"remove","msk":"if 'EGG-INFO' in dirs:\n    dirs.","msk_intervention":"if 'EGG-INFO' not in dirs:\n    dirs."}
+{"label":"append","msk":"if transformer not in self._transformers:\n    self._transformers.","msk_intervention":"if transformer in self._transformers:\n    self._transformers."}
+{"label":"remove","msk":"if transformer in self._transformers:\n    self._transformers.","msk_intervention":"if transformer not in self._transformers:\n    self._transformers."}
+{"label":"append","msk":"if checker not in self._checkers:\n    self._checkers.","msk_intervention":"if checker in self._checkers:\n    self._checkers."}
+{"label":"remove","msk":"if checker in self._checkers:\n    self._checkers.","msk_intervention":"if checker not in self._checkers:\n    self._checkers."}
+{"label":"append","msk":"if nn not in unique_dict:\n    unique.","msk_intervention":"if nn in unique_dict:\n    unique."}
+{"label":"append","msk":"if arg not in defaults:\n    warn(template.format(argument=arg, cname=cls.__name__, defaults=defaults))\n    fails.","msk_intervention":"if arg in defaults:\n    warn(template.format(argument=arg, cname=cls.__name__, defaults=defaults))\n    fails."}
+{"label":"append","msk":"if service not in self.services:\n    self.services.","msk_intervention":"if service in self.services:\n    self.services."}
+{"label":"append","msk":"if neighbor not in G:\n    G[node].","msk_intervention":"if neighbor in G:\n    G[node]."}
+{"label":"remove","msk":"if [callback, device] in self._update_callbacks:\n    self._update_callbacks.","msk_intervention":"if [callback, device] not in self._update_callbacks:\n    self._update_callbacks."}
+{"label":"append","msk":"if element not in EMPTIES:\n    self.obj.setdefault(field, [])\n    self.obj.get(field).","msk_intervention":"if element in EMPTIES:\n    self.obj.setdefault(field, [])\n    self.obj.get(field)."}
+{"label":"append","msk":"if file not in included:\n    array.","msk_intervention":"if file in included:\n    array."}
+{"label":"append","msk":"if tag.lower() not in SIGNAL_TYPE_LIST:\n    markdown_cell = group_tag_code.TAG_TABLE_HEADER\n    markdown_cell = markdown_cell.replace('Tag i', tag)\n    for notebook_file in dict_by_tag[tag]:\n        split_path = notebook_file.split('\\\\')\n        notebook_type = split_path[-2]\n        notebook_name = split_path[-1].split('&')[0]\n        notebook_title = split_path[-1].split('&')[1]\n        markdown_cell += \"\\t<tr>\\n\\t\\t<td width='20%' class='header_image_color_\" + str(NOTEBOOK_KEYS[notebook_type]) + \"'><img src='..\/..\/images\/icons\/\" + notebook_type.title() + \".png' width='15%'>\\n\\t\\t<\/td>\"\n        markdown_cell += \"\\n\\t\\t<td width='60%' class='center_cell open_cell_light'>\" + notebook_title + '\\n\\t\\t<\/td>'\n        markdown_cell += \"\\n\\t\\t<td width='20%' class='center_cell'>\\n\\t\\t\\t<a href='..\/\" + notebook_type.title() + '\/' + notebook_name + \"'><div class='file_icon'><\/div><\/a>\\n\\t\\t<\/td>\\n\\t<\/tr>\"\n    markdown_cell += '<\/table>'\n    notebook_object['cells'].","msk_intervention":"if tag.lower() in SIGNAL_TYPE_LIST:\n    markdown_cell = group_tag_code.TAG_TABLE_HEADER\n    markdown_cell = markdown_cell.replace('Tag i', tag)\n    for notebook_file in dict_by_tag[tag]:\n        split_path = notebook_file.split('\\\\')\n        notebook_type = split_path[-2]\n        notebook_name = split_path[-1].split('&')[0]\n        notebook_title = split_path[-1].split('&')[1]\n        markdown_cell += \"\\t<tr>\\n\\t\\t<td width='20%' class='header_image_color_\" + str(NOTEBOOK_KEYS[notebook_type]) + \"'><img src='..\/..\/images\/icons\/\" + notebook_type.title() + \".png' width='15%'>\\n\\t\\t<\/td>\"\n        markdown_cell += \"\\n\\t\\t<td width='60%' class='center_cell open_cell_light'>\" + notebook_title + '\\n\\t\\t<\/td>'\n        markdown_cell += \"\\n\\t\\t<td width='20%' class='center_cell'>\\n\\t\\t\\t<a href='..\/\" + notebook_type.title() + '\/' + notebook_name + \"'><div class='file_icon'><\/div><\/a>\\n\\t\\t<\/td>\\n\\t<\/tr>\"\n    markdown_cell += '<\/table>'\n    notebook_object['cells']."}
+{"label":"append","msk":"if i not in valid_keys:\n    bool_out = False\n    inv_keys.","msk_intervention":"if i in valid_keys:\n    bool_out = False\n    inv_keys."}
+{"label":"append","msk":"if el not in result:\n    result.","msk_intervention":"if el in result:\n    result."}
+{"label":"remove","msk":"if lst_idx in self.not_in_result_root_match_idx:\n    self.not_in_result_root_match_idx.","msk_intervention":"if lst_idx not in self.not_in_result_root_match_idx:\n    self.not_in_result_root_match_idx."}
+{"label":"append","msk":"if hook not in self._hooks[event]:\n    self._hooks[event].","msk_intervention":"if hook in self._hooks[event]:\n    self._hooks[event]."}
+{"label":"remove","msk":"if hook in self._hooks[event]:\n    self._hooks[event].","msk_intervention":"if hook not in self._hooks[event]:\n    self._hooks[event]."}
+{"label":"append","msk":"if limiter not in self.rate_limiters:\n    self.subscribe('capacity', limiter.on_capacity)\n    self.rate_limiters.","msk_intervention":"if limiter in self.rate_limiters:\n    self.subscribe('capacity', limiter.on_capacity)\n    self.rate_limiters."}
+{"label":"remove","msk":"if limiter in self.rate_limiters:\n    self.unsubscribe('capacity', limiter.on_capacity)\n    self.rate_limiters.","msk_intervention":"if limiter not in self.rate_limiters:\n    self.unsubscribe('capacity', limiter.on_capacity)\n    self.rate_limiters."}
+{"label":"remove","msk":"if flag in each:\n    result = set(each)\n    result.","msk_intervention":"if flag not in each:\n    result = set(each)\n    result."}
+{"label":"remove","msk":"if watchdog in self.__running_registry:\n    self.__running_registry.","msk_intervention":"if watchdog not in self.__running_registry:\n    self.__running_registry."}
+{"label":"append","msk":"if i not in l:\n    l.","msk_intervention":"if i in l:\n    l."}
+{"label":"remove","msk":"if filename in self._filenames:\n    self._filenames.","msk_intervention":"if filename not in self._filenames:\n    self._filenames."}
+{"label":"remove","msk":"if anchor in cls.paths:\n    cls.paths.","msk_intervention":"if anchor not in cls.paths:\n    cls.paths."}
+{"label":"remove","msk":"if role in self.__roles:\n    self.__roles.","msk_intervention":"if role not in self.__roles:\n    self.__roles."}
+{"label":"append","msk":"if k not in res_ids:\n    for_removal.","msk_intervention":"if k in res_ids:\n    for_removal."}
+{"label":"append","msk":"if limit not in self.limit_to:\n    self.limit_to.","msk_intervention":"if limit in self.limit_to:\n    self.limit_to."}
+{"label":"append","msk":"if repo not in starred_repos:\n    repos_list.","msk_intervention":"if repo in starred_repos:\n    repos_list."}
+{"label":"append","msk":"if str(e) not in self._errors:\n    self._errors.","msk_intervention":"if str(e) in self._errors:\n    self._errors."}
+{"label":"append","msk":"if message not in self._warnings:\n    self._warnings.","msk_intervention":"if message in self._warnings:\n    self._warnings."}
+{"label":"remove","msk":"if name in tags:\n    tags.","msk_intervention":"if name not in tags:\n    tags."}
+{"label":"append","msk":"if filename not in self.__input_files:\n    self.__input_files.","msk_intervention":"if filename in self.__input_files:\n    self.__input_files."}
+{"label":"append","msk":"if filename not in self.__output_files:\n    self.__output_files.","msk_intervention":"if filename in self.__output_files:\n    self.__output_files."}
+{"label":"append","msk":"if filename not in self.__checkpoint_files:\n    self.__checkpoint_files.","msk_intervention":"if filename in self.__checkpoint_files:\n    self.__checkpoint_files."}
+{"label":"append","msk":"if filename not in self.__input_files:\n    self.__input_files.","msk_intervention":"if filename in self.__input_files:\n    self.__input_files."}
+{"label":"append","msk":"if filename not in self.__input_files:\n    self.__input_files.","msk_intervention":"if filename in self.__input_files:\n    self.__input_files."}
+{"label":"append","msk":"if command not in self.__var_cmds:\n    self.__var_cmds.","msk_intervention":"if command in self.__var_cmds:\n    self.__var_cmds."}
+{"label":"append","msk":"if elem not in new:\n    new.","msk_intervention":"if elem in new:\n    new."}
+{"label":"append","msk":"if next_word not in self._db[key]:\n    self._db[key].","msk_intervention":"if next_word in self._db[key]:\n    self._db[key]."}
+{"label":"append","msk":"if index_point not in self.index:\n    self.values.append(value)\n    self.index.","msk_intervention":"if index_point in self.index:\n    self.values.append(value)\n    self.index."}
+{"label":"append","msk":"if tag not in updated_tag_list:\n    updated_tag_list.","msk_intervention":"if tag in updated_tag_list:\n    updated_tag_list."}
+{"label":"remove","msk":"if tag in updated_tag_list:\n    updated_tag_list.","msk_intervention":"if tag not in updated_tag_list:\n    updated_tag_list."}
+{"label":"append","msk":"if item not in uniq:\n    uniq.","msk_intervention":"if item in uniq:\n    uniq."}
+{"label":"remove","msk":"if observableElement in self._observables:\n    self._observables.","msk_intervention":"if observableElement not in self._observables:\n    self._observables."}
+{"label":"append","msk":"if module_name not in ModuleMembers:\n    ModuleMembers[module_name] = []\n    ModulesQ.","msk_intervention":"if module_name in ModuleMembers:\n    ModuleMembers[module_name] = []\n    ModulesQ."}
+{"label":"append","msk":"if Member not in Members:\n    Members.","msk_intervention":"if Member in Members:\n    Members."}
+{"label":"append","msk":"if result.key not in keys:\n    keys.","msk_intervention":"if result.key in keys:\n    keys."}
+{"label":"remove","msk":"if socket in self._sockets:\n    socket.on_closed.disconnect(self.remove_socket)\n    self._sockets.","msk_intervention":"if socket not in self._sockets:\n    socket.on_closed.disconnect(self.remove_socket)\n    self._sockets."}
+{"label":"append","msk":"if res_atom.parent not in nearby_residues:\n    nearby_residues.","msk_intervention":"if res_atom.parent in nearby_residues:\n    nearby_residues."}
+{"label":"remove","msk":"if self in self._server._pending_set:\n    self._server._pending_set.","msk_intervention":"if self not in self._server._pending_set:\n    self._server._pending_set."}
+{"label":"append","msk":"if qarn not in queue_arns:\n    queue_arns.","msk_intervention":"if qarn in queue_arns:\n    queue_arns."}
+{"label":"remove","msk":"if a in self.attachments:\n    self.attachments.","msk_intervention":"if a not in self.attachments:\n    self.attachments."}
+{"label":"remove","msk":"if p in self.participants:\n    self.participants.","msk_intervention":"if p not in self.participants:\n    self.participants."}
+{"label":"remove","msk":"if t in self.tournaments:\n    self.tournaments.","msk_intervention":"if t not in self.tournaments:\n    self.tournaments."}
+{"label":"remove","msk":"if die in self._dice:\n    self._dice.","msk_intervention":"if die not in self._dice:\n    self._dice."}
+{"label":"append","msk":"if nick not in self._user_nicks:\n    self._user_nicks.","msk_intervention":"if nick in self._user_nicks:\n    self._user_nicks."}
+{"label":"append","msk":"if i not in tmp:\n    self._exclude.","msk_intervention":"if i in tmp:\n    self._exclude."}
+{"label":"append","msk":"if memberName not in expectedArgList:\n    expectedArgList.","msk_intervention":"if memberName in expectedArgList:\n    expectedArgList."}
+{"label":"append","msk":"if type_ not in self.__exclusion_list:\n    self.__exclusion_list.","msk_intervention":"if type_ in self.__exclusion_list:\n    self.__exclusion_list."}
+{"label":"remove","msk":"if type_ in self.__exclusion_list:\n    self.__exclusion_list.","msk_intervention":"if type_ not in self.__exclusion_list:\n    self.__exclusion_list."}
+{"label":"append","msk":"if i not in stopwords_list:\n    list_clean.","msk_intervention":"if i in stopwords_list:\n    list_clean."}
+{"label":"remove","msk":"if item in self:\n    super(NGram, self).","msk_intervention":"if item not in self:\n    super(NGram, self)."}
+{"label":"remove","msk":"if listener in _stepListeners:\n    _stepListeners.","msk_intervention":"if listener not in _stepListeners:\n    _stepListeners."}
+{"label":"append","msk":"if i not in actual_classes:\n    self['puppetclasses'].","msk_intervention":"if i in actual_classes:\n    self['puppetclasses']."}
+{"label":"append","msk":"if alarm not in self._alarms:\n    self._set('alarm', alarm, multi=True)\n    self._alarms.","msk_intervention":"if alarm in self._alarms:\n    self._set('alarm', alarm, multi=True)\n    self._alarms."}
+{"label":"append","msk":"if plugin not in self._plugins:\n    self._set(command, plugin, multi=True)\n    self._plugins.","msk_intervention":"if plugin in self._plugins:\n    self._set(command, plugin, multi=True)\n    self._plugins."}
+{"label":"append","msk":"if key not in field_list:\n    field_list.","msk_intervention":"if key in field_list:\n    field_list."}
+{"label":"append","msk":"if key not in keys:\n    keys.","msk_intervention":"if key in keys:\n    keys."}
+{"label":"append","msk":"if peer_ip not in self.peer_ips:\n    self.peer_ips.","msk_intervention":"if peer_ip in self.peer_ips:\n    self.peer_ips."}
+{"label":"append","msk":"if name not in self._stop_dags:\n    self._stop_dags.","msk_intervention":"if name in self._stop_dags:\n    self._stop_dags."}
+{"label":"append","msk":"if workflow_id not in stopped_workflows:\n    client = Client(SignalConnection(**consumer.app.user_options['config'].signal, auto_connect=True), request_key=workflow_id)\n    client.send(Request(action='stop_workflow'))\n    stopped_workflows.","msk_intervention":"if workflow_id in stopped_workflows:\n    client = Client(SignalConnection(**consumer.app.user_options['config'].signal, auto_connect=True), request_key=workflow_id)\n    client.send(Request(action='stop_workflow'))\n    stopped_workflows."}
+{"label":"append","msk":"if item not in out_list:\n    out_list.","msk_intervention":"if item in out_list:\n    out_list."}
+{"label":"append","msk":"if name not in keep_names:\n    drop_names.","msk_intervention":"if name in keep_names:\n    drop_names."}
+{"label":"remove","msk":"if '' in slabels:\n    slabels.","msk_intervention":"if '' not in slabels:\n    slabels."}
+{"label":"append","msk":"if key not in header_list:\n    header_list.","msk_intervention":"if key in header_list:\n    header_list."}
+{"label":"append","msk":"if dist.project_name not in projects:\n    projects.","msk_intervention":"if dist.project_name in projects:\n    projects."}
+{"label":"append","msk":"if service_name not in self.manifest['services']:\n    self.manifest['services'].","msk_intervention":"if service_name in self.manifest['services']:\n    self.manifest['services']."}
+{"label":"append","msk":"if key not in self.defaults:\n    self.defaults.","msk_intervention":"if key in self.defaults:\n    self.defaults."}
+{"label":"append","msk":"if data not in [False, -1]:\n    data_list.","msk_intervention":"if data in [False, -1]:\n    data_list."}
+{"label":"append","msk":"if oldtype not in self._oldTypesRemaining:\n    self._oldTypesRemaining.","msk_intervention":"if oldtype in self._oldTypesRemaining:\n    self._oldTypesRemaining."}
+{"label":"append","msk":"if src_path not in sys.path:\n    sys.path.","msk_intervention":"if src_path in sys.path:\n    sys.path."}
+{"label":"append","msk":"if src_path not in sys.path:\n    sys.path.","msk_intervention":"if src_path in sys.path:\n    sys.path."}
+{"label":"append","msk":"if src_path not in sys.path:\n    sys.path.","msk_intervention":"if src_path in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if 'meta' in keys:\n    keys.","msk_intervention":"if 'meta' not in keys:\n    keys."}
+{"label":"append","msk":"if src_path not in sys.path:\n    sys.path.","msk_intervention":"if src_path in sys.path:\n    sys.path."}
+{"label":"append","msk":"if i not in y:\n    y.","msk_intervention":"if i in y:\n    y."}
+{"label":"append","msk":"if label not in self.saved_categories:\n    self.saved_categories.","msk_intervention":"if label in self.saved_categories:\n    self.saved_categories."}
+{"label":"append","msk":"if x not in existing:\n    existing.","msk_intervention":"if x in existing:\n    existing."}
+{"label":"append","msk":"if input not in stack:\n    stack.","msk_intervention":"if input in stack:\n    stack."}
+{"label":"remove","msk":"if file_path in self._cti_files:\n    self._cti_files.","msk_intervention":"if file_path not in self._cti_files:\n    self._cti_files."}
+{"label":"append","msk":"if resource not in self._exempt:\n    self._exempt.","msk_intervention":"if resource in self._exempt:\n    self._exempt."}
+{"label":"append","msk":"if func not in self.hooks:\n    self.hooks.","msk_intervention":"if func in self.hooks:\n    self.hooks."}
+{"label":"remove","msk":"if func in self.hooks:\n    self.hooks.","msk_intervention":"if func not in self.hooks:\n    self.hooks."}
+{"label":"remove","msk":"if '' in packages:\n    packages.","msk_intervention":"if '' not in packages:\n    packages."}
+{"label":"append","msk":"if item not in self.config['files']:\n    self.config['files'].","msk_intervention":"if item in self.config['files']:\n    self.config['files']."}
+{"label":"remove","msk":"if '' in packages:\n    packages.","msk_intervention":"if '' not in packages:\n    packages."}
+{"label":"append","msk":"if value not in merged:\n    merged.","msk_intervention":"if value in merged:\n    merged."}
+{"label":"remove","msk":"if tool in self.current_tools:\n    self.current_tools.","msk_intervention":"if tool not in self.current_tools:\n    self.current_tools."}
+{"label":"remove","msk":"if self.stream.transport in self._ml_handlers:\n    self._ml_handlers.","msk_intervention":"if self.stream.transport not in self._ml_handlers:\n    self._ml_handlers."}
+{"label":"remove","msk":"if handler in self.handlers:\n    self.handlers.","msk_intervention":"if handler not in self.handlers:\n    self.handlers."}
+{"label":"append","msk":"if item not in seen:\n    seen.","msk_intervention":"if item in seen:\n    seen."}
+{"label":"remove","msk":"if 'id' in field_names:\n    field_names.","msk_intervention":"if 'id' not in field_names:\n    field_names."}
+{"label":"append","msk":"if image_url not in all_image_urls:\n    all_image_urls.","msk_intervention":"if image_url in all_image_urls:\n    all_image_urls."}
+{"label":"remove","msk":"if c in self.clauses:\n    self.clauses.","msk_intervention":"if c not in self.clauses:\n    self.clauses."}
+{"label":"remove","msk":"if value in l:\n    l.","msk_intervention":"if value not in l:\n    l."}
+{"label":"remove","msk":"if value in l:\n    l.","msk_intervention":"if value not in l:\n    l."}
+{"label":"remove","msk":"if item in l:\n    l.","msk_intervention":"if item not in l:\n    l."}
+{"label":"append","msk":"if element not in uniques:\n    uniques.","msk_intervention":"if element in uniques:\n    uniques."}
+{"label":"append","msk":"if why.args[0] not in (EWOULDBLOCK, EAGAIN):\n    self._exceptions.","msk_intervention":"if why.args[0] in (EWOULDBLOCK, EAGAIN):\n    self._exceptions."}
+{"label":"append","msk":"if i not in result:\n    result.","msk_intervention":"if i in result:\n    result."}
+{"label":"append","msk":"if cmd not in commands:\n    commands.","msk_intervention":"if cmd in commands:\n    commands."}
+{"label":"append","msk":"if atom.idx not in self.altconf:\n    atom_set.","msk_intervention":"if atom.idx in self.altconf:\n    atom_set."}
+{"label":"append","msk":"if child.tag not in ['author_signature', 'parent_author_signature']:\n    props.","msk_intervention":"if child.tag in ['author_signature', 'parent_author_signature']:\n    props."}
+{"label":"append","msk":"if list_shape_id not in self.list_shapes:\n    list_shape = Shape(id=list_shape_id, closed=True)\n    list_shape.expression = EachOf()\n    expressions = [TripleConstraint(predicate=RDF.first, valueExpr=target_type, min=0, max=1)]\n    targets = ShapeOr()\n    targets.shapeExprs = [NodeConstraint(values=[RDF.nil]), list_shape_id]\n    expressions.append(TripleConstraint(predicate=RDF.rest, valueExpr=targets))\n    list_shape.expression.expressions = expressions\n    self.shapes.append(list_shape)\n    self.list_shapes.","msk_intervention":"if list_shape_id in self.list_shapes:\n    list_shape = Shape(id=list_shape_id, closed=True)\n    list_shape.expression = EachOf()\n    expressions = [TripleConstraint(predicate=RDF.first, valueExpr=target_type, min=0, max=1)]\n    targets = ShapeOr()\n    targets.shapeExprs = [NodeConstraint(values=[RDF.nil]), list_shape_id]\n    expressions.append(TripleConstraint(predicate=RDF.rest, valueExpr=targets))\n    list_shape.expression.expressions = expressions\n    self.shapes.append(list_shape)\n    self.list_shapes."}
+{"label":"remove","msk":"if message in self.__messages:\n    self.__messages.","msk_intervention":"if message not in self.__messages:\n    self.__messages."}
+{"label":"remove","msk":"if mod in self.active:\n    self.active.","msk_intervention":"if mod not in self.active:\n    self.active."}
+{"label":"append","msk":"if path not in sys.path:\n    sys.path.","msk_intervention":"if path in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if item in self.set:\n    self.set.","msk_intervention":"if item not in self.set:\n    self.set."}
+{"label":"append","msk":"if col not in data[0]:\n    missing.","msk_intervention":"if col in data[0]:\n    missing."}
+{"label":"append","msk":"if spec not in speclist:\n    speclist.","msk_intervention":"if spec in speclist:\n    speclist."}
+{"label":"append","msk":"if spec not in speclist:\n    speclist.","msk_intervention":"if spec in speclist:\n    speclist."}
+{"label":"remove","msk":"if 'types' in includes:\n    includes.","msk_intervention":"if 'types' not in includes:\n    includes."}
+{"label":"append","msk":"if entry not in self.current:\n    self.current.","msk_intervention":"if entry in self.current:\n    self.current."}
+{"label":"remove","msk":"if client in self.clients:\n    self.clients.","msk_intervention":"if client not in self.clients:\n    self.clients."}
+{"label":"append","msk":"if self.theme not in self._additional_themes:\n    self._additional_themes.","msk_intervention":"if self.theme in self._additional_themes:\n    self._additional_themes."}
+{"label":"append","msk":"if mv_grid_district not in self.mv_grid_districts():\n    self._mv_grid_districts.","msk_intervention":"if mv_grid_district in self.mv_grid_districts():\n    self._mv_grid_districts."}
+{"label":"append","msk":"if lv_load_area_group not in self.lv_load_area_groups():\n    self._lv_load_area_groups.","msk_intervention":"if lv_load_area_group in self.lv_load_area_groups():\n    self._lv_load_area_groups."}
+{"label":"remove","msk":"if callback in self._async_callbacks:\n    self._async_callbacks.","msk_intervention":"if callback not in self._async_callbacks:\n    self._async_callbacks."}
+{"label":"append","msk":"if author not in dataset.authors:\n    dataset.authors.","msk_intervention":"if author in dataset.authors:\n    dataset.authors."}
+{"label":"append","msk":"if callback not in self._inform_hooks[inform_name]:\n    self._inform_hooks[inform_name].","msk_intervention":"if callback in self._inform_hooks[inform_name]:\n    self._inform_hooks[inform_name]."}
+{"label":"append","msk":"if state not in self.possible_states:\n    self.possible_states.","msk_intervention":"if state in self.possible_states:\n    self.possible_states."}
+{"label":"append","msk":"if model not in self.all_models:\n    self.all_models.","msk_intervention":"if model in self.all_models:\n    self.all_models."}
+{"label":"remove","msk":"if rm_enclosure in self._enclosure:\n    self._enclosure.","msk_intervention":"if rm_enclosure not in self._enclosure:\n    self._enclosure."}
+{"label":"append","msk":"if x not in res:\n    res.","msk_intervention":"if x in res:\n    res."}
+{"label":"append","msk":"if listener not in self.listeners:\n    self.listeners.","msk_intervention":"if listener in self.listeners:\n    self.listeners."}
+{"label":"remove","msk":"if listener in self.listeners:\n    self.listeners.","msk_intervention":"if listener not in self.listeners:\n    self.listeners."}
+{"label":"append","msk":"if x not in res:\n    res.","msk_intervention":"if x in res:\n    res."}
+{"label":"append","msk":"if n.name not in res:\n    res.","msk_intervention":"if n.name in res:\n    res."}
+{"label":"remove","msk":"if None in methods_list:\n    methods_list.","msk_intervention":"if None not in methods_list:\n    methods_list."}
+{"label":"remove","msk":"if child.plugin_type in child_classes:\n    child_classes.","msk_intervention":"if child.plugin_type not in child_classes:\n    child_classes."}
+{"label":"append","msk":"if new_item not in self[k]:\n    self[k].","msk_intervention":"if new_item in self[k]:\n    self[k]."}
+{"label":"remove","msk":"if func in callbacks:\n    callbacks.","msk_intervention":"if func not in callbacks:\n    callbacks."}
+{"label":"remove","msk":"if iv in other:\n    self.","msk_intervention":"if iv not in other:\n    self."}
+{"label":"append","msk":"if abspath not in self._config_paths:\n    log.info('Adding {0} to paths to search'.format(abspath))\n    self._config_paths.","msk_intervention":"if abspath in self._config_paths:\n    log.info('Adding {0} to paths to search'.format(abspath))\n    self._config_paths."}
+{"label":"remove","msk":"if theta_key in self._params:\n    sky_params[theta_key] = self.theta * u.rad - angle.to(u.rad)\n    params.","msk_intervention":"if theta_key not in self._params:\n    sky_params[theta_key] = self.theta * u.rad - angle.to(u.rad)\n    params."}
+{"label":"remove","msk":"if self in scoop._control.execQueue.movable:\n    self.exceptionValue = CancelledError()\n    scoop._control.futureDict[self.id]._delete()\n    scoop._control.execQueue.","msk_intervention":"if self not in scoop._control.execQueue.movable:\n    self.exceptionValue = CancelledError()\n    scoop._control.futureDict[self.id]._delete()\n    scoop._control.execQueue."}
+{"label":"remove","msk":"if 'w' in ret:\n    ret.","msk_intervention":"if 'w' not in ret:\n    ret."}
+{"label":"append","msk":"if item not in list1:\n    list1.","msk_intervention":"if item in list1:\n    list1."}
+{"label":"append","msk":"if addr not in self.hostname_entry['addresses']:\n    self.hostname_entry['addresses'].","msk_intervention":"if addr in self.hostname_entry['addresses']:\n    self.hostname_entry['addresses']."}
+{"label":"append","msk":"if i not in self._codedValues:\n    self._codedValues.","msk_intervention":"if i in self._codedValues:\n    self._codedValues."}
+{"label":"append","msk":"if fn not in self._handler_dict[event]:\n    self._handler_dict[event].","msk_intervention":"if fn in self._handler_dict[event]:\n    self._handler_dict[event]."}
+{"label":"append","msk":"if zone not in self.zones:\n    self.zones.","msk_intervention":"if zone in self.zones:\n    self.zones."}
+{"label":"append","msk":"if a_file.stem not in transcription_file_prefixes:\n    untranscribed_prefixes.","msk_intervention":"if a_file.stem in transcription_file_prefixes:\n    untranscribed_prefixes."}
+{"label":"append","msk":"if symbol not in symbollist:\n    symbollist.","msk_intervention":"if symbol in symbollist:\n    symbollist."}
+{"label":"append","msk":"if policy_uri not in self.preferred_auth_policies:\n    self.preferred_auth_policies.","msk_intervention":"if policy_uri in self.preferred_auth_policies:\n    self.preferred_auth_policies."}
+{"label":"append","msk":"if policy_uri not in self.auth_policies:\n    self.auth_policies.","msk_intervention":"if policy_uri in self.auth_policies:\n    self.auth_policies."}
+{"label":"append","msk":"if ele not in unique_list:\n    unique_list.","msk_intervention":"if ele in unique_list:\n    unique_list."}
+{"label":"remove","msk":"if '' in sys.path:\n    sys.path.","msk_intervention":"if '' not in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if '' in sys.path:\n    sys.path.","msk_intervention":"if '' not in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if '' in sys.path:\n    sys.path.","msk_intervention":"if '' not in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if '' in sys.path:\n    sys.path.","msk_intervention":"if '' not in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if '' in sys.path:\n    sys.path.","msk_intervention":"if '' not in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if '' in sys.path:\n    sys.path.","msk_intervention":"if '' not in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if id(plugin) in self._provided_by_preset:\n    self._provided_by_preset.","msk_intervention":"if id(plugin) not in self._provided_by_preset:\n    self._provided_by_preset."}
+{"label":"append","msk":"if tpl not in self.chosen_exits[block_address]:\n    self.chosen_exits[block_address].","msk_intervention":"if tpl in self.chosen_exits[block_address]:\n    self.chosen_exits[block_address]."}
+{"label":"append","msk":"if evt not in events:\n    events.","msk_intervention":"if evt in events:\n    events."}
+{"label":"remove","msk":"if '_cls' in columns:\n    columns.","msk_intervention":"if '_cls' not in columns:\n    columns."}
+{"label":"append","msk":"if org not in hex_out:\n    hex_out.","msk_intervention":"if org in hex_out:\n    hex_out."}
+{"label":"append","msk":"if chunk_number not in self.chunk_cache:\n    missing_chunks.","msk_intervention":"if chunk_number in self.chunk_cache:\n    missing_chunks."}
+{"label":"append","msk":"if address.human_readable_address not in filtered_ips:\n    result.","msk_intervention":"if address.human_readable_address in filtered_ips:\n    result."}
+{"label":"append","msk":"if desc not in new_descriptors:\n    new_descriptors.","msk_intervention":"if desc in new_descriptors:\n    new_descriptors."}
+{"label":"append","msk":"if desc not in self.descriptors:\n    self.descriptors.","msk_intervention":"if desc in self.descriptors:\n    self.descriptors."}
+{"label":"append","msk":"if miller not in all_hkl:\n    all_hkl.","msk_intervention":"if miller in all_hkl:\n    all_hkl."}
+{"label":"remove","msk":"if 'EGG-INFO' in dirs:\n    dirs.","msk_intervention":"if 'EGG-INFO' not in dirs:\n    dirs."}
+{"label":"append","msk":"if i not in self.vertices[parent].children:\n    self.vertices[parent].children.","msk_intervention":"if i in self.vertices[parent].children:\n    self.vertices[parent].children."}
+{"label":"append","msk":"if i not in self.vertices[child].parents:\n    self.vertices[child].parents.","msk_intervention":"if i in self.vertices[child].parents:\n    self.vertices[child].parents."}
+{"label":"append","msk":"if item not in _list:\n    _list.","msk_intervention":"if item in _list:\n    _list."}
+{"label":"append","msk":"if destination_id not in self._open_channels:\n    self._open_channels.","msk_intervention":"if destination_id in self._open_channels:\n    self._open_channels."}
+{"label":"remove","msk":"if destination_id in self._open_channels:\n    try:\n        self.send_message(destination_id, NS_CONNECTION, {MESSAGE_TYPE: TYPE_CLOSE, 'origin': {}}, no_add_request_id=True, force=True)\n    except NotConnected:\n        pass\n    except Exception:\n        self.logger.exception('[%s:%s] Exception', self.fn or self.host, self.port)\n    self._open_channels.","msk_intervention":"if destination_id not in self._open_channels:\n    try:\n        self.send_message(destination_id, NS_CONNECTION, {MESSAGE_TYPE: TYPE_CLOSE, 'origin': {}}, no_add_request_id=True, force=True)\n    except NotConnected:\n        pass\n    except Exception:\n        self.logger.exception('[%s:%s] Exception', self.fn or self.host, self.port)\n    self._open_channels."}
+{"label":"remove","msk":"if node in self.rpo:\n    self.rpo.","msk_intervention":"if node not in self.rpo:\n    self.rpo."}
+{"label":"append","msk":"if perm not in list(self.permission_module.keys()):\n    third_party_permissions.","msk_intervention":"if perm in list(self.permission_module.keys()):\n    third_party_permissions."}
+{"label":"append","msk":"if x.sha256 not in fps:\n    fps.","msk_intervention":"if x.sha256 in fps:\n    fps."}
+{"label":"append","msk":"if endpoint not in self._candidate_peer_endpoints:\n    self._candidate_peer_endpoints.","msk_intervention":"if endpoint in self._candidate_peer_endpoints:\n    self._candidate_peer_endpoints."}
+{"label":"append","msk":"if d not in dimensions:\n    dimensions.","msk_intervention":"if d in dimensions:\n    dimensions."}
+{"label":"remove","msk":"if func in self._syn_links:\n    self._syn_links.","msk_intervention":"if func not in self._syn_links:\n    self._syn_links."}
+{"label":"remove","msk":"if value in values:\n    values.","msk_intervention":"if value not in values:\n    values."}
+{"label":"append","msk":"if recipient not in to_set:\n    to_set.","msk_intervention":"if recipient in to_set:\n    to_set."}
+{"label":"remove","msk":"if fieldname in self.unused:\n    self.unused.","msk_intervention":"if fieldname not in self.unused:\n    self.unused."}
+{"label":"append","msk":"if analysis.getSamplePartition() not in partitions:\n    partitions.","msk_intervention":"if analysis.getSamplePartition() in partitions:\n    partitions."}
+{"label":"remove","msk":"if tag in tags:\n    tags.","msk_intervention":"if tag not in tags:\n    tags."}
+{"label":"append","msk":"if (x_, y_) not in coords:\n    coords.","msk_intervention":"if (x_, y_) in coords:\n    coords."}
+{"label":"append","msk":"if index not in ix:\n    ix.","msk_intervention":"if index in ix:\n    ix."}
+{"label":"append","msk":"if rdata_ip.to_text() not in nameservers:\n    nameservers.","msk_intervention":"if rdata_ip.to_text() in nameservers:\n    nameservers."}
+{"label":"append","msk":"if format_specification.identifier not in parser_names:\n    parser_names.","msk_intervention":"if format_specification.identifier in parser_names:\n    parser_names."}
+{"label":"remove","msk":"if name in params:\n    logger.info(\"\\tFound '%s': shape=%s\", name, str(params[name].shape))\n    ext_params[name] = params[name].asnumpy()\n    remaining_param_names.","msk_intervention":"if name not in params:\n    logger.info(\"\\tFound '%s': shape=%s\", name, str(params[name].shape))\n    ext_params[name] = params[name].asnumpy()\n    remaining_param_names."}
+{"label":"append","msk":"if succ not in seen:\n    to_see.","msk_intervention":"if succ in seen:\n    to_see."}
+{"label":"remove","msk":"if cmdtask in self.tasks:\n    self.tasks.","msk_intervention":"if cmdtask not in self.tasks:\n    self.tasks."}
+{"label":"remove","msk":"if peer in self.Peers:\n    self.Peers.","msk_intervention":"if peer not in self.Peers:\n    self.Peers."}
+{"label":"remove","msk":"if addr in self.connection_queue:\n    self.connection_queue.","msk_intervention":"if addr not in self.connection_queue:\n    self.connection_queue."}
+{"label":"remove","msk":"if key in fields:\n    langs = resolution_order(get_language(), getattr(model, key).fallback_languages)\n    fields = fields.union((build_localized_fieldname(key, lang) for lang in langs))\n    fields.","msk_intervention":"if key not in fields:\n    langs = resolution_order(get_language(), getattr(model, key).fallback_languages)\n    fields = fields.union((build_localized_fieldname(key, lang) for lang in langs))\n    fields."}
+{"label":"append","msk":"if i not in unique_values:\n    unique_values.","msk_intervention":"if i in unique_values:\n    unique_values."}
+{"label":"append","msk":"if arn not in policy['Statement'][0]['Condition']['ForAnyValue:ArnEquals']['aws:SourceArn']:\n    self.log.warning('SQS policy is missing condition for ARN {}'.format(arn))\n    policy['Statement'][0]['Condition']['ForAnyValue:ArnEquals']['aws:SourceArn'].","msk_intervention":"if arn in policy['Statement'][0]['Condition']['ForAnyValue:ArnEquals']['aws:SourceArn']:\n    self.log.warning('SQS policy is missing condition for ARN {}'.format(arn))\n    policy['Statement'][0]['Condition']['ForAnyValue:ArnEquals']['aws:SourceArn']."}
+{"label":"append","msk":"if mime not in mimes:\n    mimes.","msk_intervention":"if mime in mimes:\n    mimes."}
+{"label":"remove","msk":"if netifaces.AF_INET in families:\n    families.","msk_intervention":"if netifaces.AF_INET not in families:\n    families."}
+{"label":"append","msk":"if member not in vo_members:\n    vo_members.","msk_intervention":"if member in vo_members:\n    vo_members."}
+{"label":"append","msk":"if key not in self:\n    self._keys.","msk_intervention":"if key in self:\n    self._keys."}
+{"label":"remove","msk":"if key in self._keys:\n    self._keys.","msk_intervention":"if key not in self._keys:\n    self._keys."}
+{"label":"append","msk":"if s not in self.info:\n    self.info.","msk_intervention":"if s in self.info:\n    self.info."}
+{"label":"append","msk":"if col not in symbol:\n    symbol.","msk_intervention":"if col in symbol:\n    symbol."}
+{"label":"append","msk":"if key not in keys:\n    keys.","msk_intervention":"if key in keys:\n    keys."}
+{"label":"append","msk":"if item not in self.__transaction_index_map:\n    self.__items.","msk_intervention":"if item in self.__transaction_index_map:\n    self.__items."}
+{"label":"append","msk":"if param not in self.time_vary:\n    self.time_vary.","msk_intervention":"if param in self.time_vary:\n    self.time_vary."}
+{"label":"append","msk":"if param not in self.time_inv:\n    self.time_inv.","msk_intervention":"if param in self.time_inv:\n    self.time_inv."}
+{"label":"remove","msk":"if param in self.time_vary:\n    self.time_vary.","msk_intervention":"if param not in self.time_vary:\n    self.time_vary."}
+{"label":"remove","msk":"if param in self.time_inv:\n    self.time_inv.","msk_intervention":"if param not in self.time_inv:\n    self.time_inv."}
+{"label":"remove","msk":"if 'self' in arg_names:\n    arg_names.","msk_intervention":"if 'self' not in arg_names:\n    arg_names."}
+{"label":"append","msk":"if n not in self.startup_nodes:\n    self.startup_nodes.","msk_intervention":"if n in self.startup_nodes:\n    self.startup_nodes."}
+{"label":"append","msk":"if i not in out:\n    out.","msk_intervention":"if i in out:\n    out."}
+{"label":"remove","msk":"if key in keys:\n    keys.","msk_intervention":"if key not in keys:\n    keys."}
+{"label":"remove","msk":"if dependency in top:\n    top.","msk_intervention":"if dependency not in top:\n    top."}
+{"label":"append","msk":"if i not in result:\n    result.","msk_intervention":"if i in result:\n    result."}
+{"label":"append","msk":"if style not in style_whitelist:\n    style_whitelist.","msk_intervention":"if style in style_whitelist:\n    style_whitelist."}
+{"label":"append","msk":"if buffer not in self.buffers:\n    logger.debug('adding new buffer {!r}'.format(buffer))\n    self.buffers.","msk_intervention":"if buffer in self.buffers:\n    logger.debug('adding new buffer {!r}'.format(buffer))\n    self.buffers."}
+{"label":"append","msk":"if neighbor not in seen[node]:\n    seen[neighbor].add(node)\n    R.","msk_intervention":"if neighbor in seen[node]:\n    seen[neighbor].add(node)\n    R."}
+{"label":"append","msk":"if listener not in self.listeners:\n    self.listeners.","msk_intervention":"if listener in self.listeners:\n    self.listeners."}
+{"label":"remove","msk":"if bp in bpset:\n    bpset.","msk_intervention":"if bp not in bpset:\n    bpset."}
+{"label":"remove","msk":"if tid in self.__tracing:\n    self.__tracing.","msk_intervention":"if tid not in self.__tracing:\n    self.__tracing."}
+{"label":"append","msk":"if ctx_fetcher not in self.ctx_fetchers:\n    self.ctx_fetchers.","msk_intervention":"if ctx_fetcher in self.ctx_fetchers:\n    self.ctx_fetchers."}
+{"label":"append","msk":"if (host, port) not in hosts:\n    hosts.","msk_intervention":"if (host, port) in hosts:\n    hosts."}
+{"label":"append","msk":"if handler not in handlerList:\n    handlerList.","msk_intervention":"if handler in handlerList:\n    handlerList."}
+{"label":"append","msk":"if handler not in self.__generalHandlers:\n    self.__generalHandlers.","msk_intervention":"if handler in self.__generalHandlers:\n    self.__generalHandlers."}
+{"label":"remove","msk":"if handler in self.__generalHandlers:\n    self.__generalHandlers.","msk_intervention":"if handler not in self.__generalHandlers:\n    self.__generalHandlers."}
+{"label":"remove","msk":"if '.git' in repo_dirs:\n    repo_dirs.","msk_intervention":"if '.git' not in repo_dirs:\n    repo_dirs."}
+{"label":"append","msk":"if key not in known:\n    outlist.","msk_intervention":"if key in known:\n    outlist."}
+{"label":"append","msk":"if state not in self.site_states[site]:\n    self.site_states[site].","msk_intervention":"if state in self.site_states[site]:\n    self.site_states[site]."}
+{"label":"append","msk":"if activity_type not in self.activity_types:\n    self.activity_types.","msk_intervention":"if activity_type in self.activity_types:\n    self.activity_types."}
+{"label":"append","msk":"if section_name not in section_name_list:\n    self.section_headings.","msk_intervention":"if section_name in section_name_list:\n    self.section_headings."}
+{"label":"append","msk":"if item['origin'] not in repositories:\n    repositories.","msk_intervention":"if item['origin'] in repositories:\n    repositories."}
+{"label":"append","msk":"if item not in uniques:\n    uniques.","msk_intervention":"if item in uniques:\n    uniques."}
+{"label":"remove","msk":"if check in self.checks_in_progress:\n    self.checks_in_progress.","msk_intervention":"if check not in self.checks_in_progress:\n    self.checks_in_progress."}
+{"label":"append","msk":"if self.ip_prefix not in prefixes:\n    prefixes.","msk_intervention":"if self.ip_prefix in prefixes:\n    prefixes."}
+{"label":"append","msk":"if pypath not in sys.path:\n    sys.path.","msk_intervention":"if pypath in sys.path:\n    sys.path."}
+{"label":"remove","msk":"if r in archs:\n    archs.","msk_intervention":"if r not in archs:\n    archs."}
+{"label":"append","msk":"if s not in sdict:\n    sdict[s] = 1\n    suffixes.","msk_intervention":"if s in sdict:\n    sdict[s] = 1\n    suffixes."}
+{"label":"append","msk":"if flag not in key_flags:\n    key_flags.","msk_intervention":"if flag in key_flags:\n    key_flags."}
+{"label":"append","msk":"if x not in parent:\n    parent.","msk_intervention":"if x in parent:\n    parent."}
+{"label":"append","msk":"if item not in seen:\n    seen.add(item)\n    new.","msk_intervention":"if item in seen:\n    seen.add(item)\n    new."}
+{"label":"append","msk":"if item not in values:\n    ret.","msk_intervention":"if item in values:\n    ret."}
+{"label":"append","msk":"if target not in self._pending['metadata']:\n    await self.rawmsg('METADATA', target, 'LIST')\n    self._metadata_queue.","msk_intervention":"if target in self._pending['metadata']:\n    await self.rawmsg('METADATA', target, 'LIST')\n    self._metadata_queue."}
+{"label":"append","msk":"if coro not in self._notify:\n    self._notify.","msk_intervention":"if coro in self._notify:\n    self._notify."}
+{"label":"remove","msk":"if coro in self._notify:\n    self._notify.","msk_intervention":"if coro not in self._notify:\n    self._notify."}
+{"label":"append","msk":"if key not in dir_items:\n    dir_items.","msk_intervention":"if key in dir_items:\n    dir_items."}
+{"label":"remove","msk":"if 'sort_order' in unique_together:\n    unique_fields = list(unique_together)\n    unique_fields.","msk_intervention":"if 'sort_order' not in unique_together:\n    unique_fields = list(unique_together)\n    unique_fields."}
+{"label":"remove","msk":"if tup in self.cb[name]:\n    self.cb[name].","msk_intervention":"if tup not in self.cb[name]:\n    self.cb[name]."}
+{"label":"append","msk":"if observer not in self._observers[signal]:\n    self._observers[signal].","msk_intervention":"if observer in self._observers[signal]:\n    self._observers[signal]."}
+{"label":"remove","msk":"if observer in self._observers[signal]:\n    self._observers[signal].","msk_intervention":"if observer not in self._observers[signal]:\n    self._observers[signal]."}
+{"label":"append","msk":"if u not in subset:\n    subset.","msk_intervention":"if u in subset:\n    subset."}
+{"label":"remove","msk":"if self in self._observers:\n    self._observers.","msk_intervention":"if self not in self._observers:\n    self._observers."}
+{"label":"append","msk":"if note_val not in self.components:\n    self.components.","msk_intervention":"if note_val in self.components:\n    self.components."}
+{"label":"remove","msk":"if compulsory_field in all_fields:\n    all_fields.","msk_intervention":"if compulsory_field not in all_fields:\n    all_fields."}
+{"label":"append","msk":"if key[group_index] not in values:\n    values.","msk_intervention":"if key[group_index] in values:\n    values."}
+{"label":"append","msk":"if feature not in install_json.get('features'):\n    install_json['features'].","msk_intervention":"if feature in install_json.get('features'):\n    install_json['features']."}
+{"label":"append","msk":"if callback not in self._callbacks:\n    self._callbacks.","msk_intervention":"if callback in self._callbacks:\n    self._callbacks."}
+{"label":"append","msk":"if file_to_add not in self.files:\n    self.files.","msk_intervention":"if file_to_add in self.files:\n    self.files."}
+{"label":"append","msk":"if server not in self.servers:\n    self.servers.","msk_intervention":"if server in self.servers:\n    self.servers."}
+{"label":"append","msk":"if log not in all_logs:\n    new_logs.","msk_intervention":"if log in all_logs:\n    new_logs."}
+{"label":"append","msk":"if at_match not in ret:\n    ret.","msk_intervention":"if at_match in ret:\n    ret."}
+{"label":"append","msk":"if marker not in merged:\n    merged.","msk_intervention":"if marker in merged:\n    merged."}
+{"label":"append","msk":"if elt not in target:\n    target.","msk_intervention":"if elt in target:\n    target."}
+{"label":"append","msk":"if rank not in self.meaningless_taxonomic_names:\n    new_tax_list.","msk_intervention":"if rank in self.meaningless_taxonomic_names:\n    new_tax_list."}
+{"label":"append","msk":"if func not in l:\n    l.","msk_intervention":"if func in l:\n    l."}
+{"label":"append","msk":"if downstream_node not in nodes_seen:\n    nodes_seen.add(downstream_node)\n    nodes.","msk_intervention":"if downstream_node in nodes_seen:\n    nodes_seen.add(downstream_node)\n    nodes."}
+{"label":"append","msk":"if each not in cleaned:\n    cleaned.","msk_intervention":"if each in cleaned:\n    cleaned."}
+{"label":"append","msk":"if flag not in key_flags:\n    key_flags.","msk_intervention":"if flag in key_flags:\n    key_flags."}
+{"label":"remove","msk":"if callback in self.callbacks:\n    self.callbacks.","msk_intervention":"if callback not in self.callbacks:\n    self.callbacks."}
+{"label":"remove","msk":"if greenlet in self.greenlets:\n    self.greenlets.","msk_intervention":"if greenlet not in self.greenlets:\n    self.greenlets."}
+{"label":"append","msk":"if task_name not in self.tasks:\n    self._add_task(task_name)\n    existing_results['tasks'].","msk_intervention":"if task_name in self.tasks:\n    self._add_task(task_name)\n    existing_results['tasks']."}
+{"label":"remove","msk":"if alias_name in aliases:\n    aliases.","msk_intervention":"if alias_name not in aliases:\n    aliases."}
+{"label":"remove","msk":"if '\\\\' in chars:\n    chars.","msk_intervention":"if '\\\\' not in chars:\n    chars."}
+{"label":"remove","msk":"if cur_path in paths:\n    paths.","msk_intervention":"if cur_path not in paths:\n    paths."}
+{"label":"append","msk":"if sample not in samples:\n    samples.","msk_intervention":"if sample in samples:\n    samples."}
+{"label":"append","msk":"if child not in subclasses:\n    subclasses.add(child)\n    work.","msk_intervention":"if child in subclasses:\n    subclasses.add(child)\n    work."}
+{"label":"append","msk":"if parent not in fks[son][0]:\n    fks[son][0].","msk_intervention":"if parent in fks[son][0]:\n    fks[son][0]."}
+{"label":"append","msk":"if column not in self._table_columns[table]:\n    self._table_columns[table].","msk_intervention":"if column in self._table_columns[table]:\n    self._table_columns[table]."}
+{"label":"append","msk":"if attr not in table_columns:\n    table_columns.","msk_intervention":"if attr in table_columns:\n    table_columns."}
+{"label":"append","msk":"if item not in blocked:\n    blocked.add(item)\n    difference.","msk_intervention":"if item in blocked:\n    blocked.add(item)\n    difference."}
+{"label":"append","msk":"if item not in b:\n    d.","msk_intervention":"if item in b:\n    d."}
+{"label":"remove","msk":"if port in self._used_tcp_ports:\n    self._used_tcp_ports.","msk_intervention":"if port not in self._used_tcp_ports:\n    self._used_tcp_ports."}
+{"label":"remove","msk":"if port in self._used_udp_ports:\n    self._used_udp_ports.","msk_intervention":"if port not in self._used_udp_ports:\n    self._used_udp_ports."}
+{"label":"append","msk":"if compute.id not in ['local', 'vm']:\n    res.","msk_intervention":"if compute.id in ['local', 'vm']:\n    res."}
+{"label":"remove","msk":"if dynamips_id in self._dynamips_ids[project_id]:\n    self._dynamips_ids[project_id].","msk_intervention":"if dynamips_id not in self._dynamips_ids[project_id]:\n    self._dynamips_ids[project_id]."}
+{"label":"remove","msk":"if port in self._used_tcp_ports:\n    self._used_tcp_ports.","msk_intervention":"if port not in self._used_tcp_ports:\n    self._used_tcp_ports."}
+{"label":"remove","msk":"if port in self._used_udp_ports:\n    self._used_udp_ports.","msk_intervention":"if port not in self._used_udp_ports:\n    self._used_udp_ports."}
+{"label":"remove","msk":"if node in self._nodes:\n    yield from node.delete()\n    self._nodes.","msk_intervention":"if node not in self._nodes:\n    yield from node.delete()\n    self._nodes."}
+{"label":"remove","msk":"if name in self._allocated_node_names:\n    self._allocated_node_names.","msk_intervention":"if name not in self._allocated_node_names:\n    self._allocated_node_names."}
+{"label":"append","msk":"if role not in user.roles:\n    user.roles.","msk_intervention":"if role in user.roles:\n    user.roles."}
+{"label":"remove","msk":"if role in user.roles:\n    rv = True\n    user.roles.","msk_intervention":"if role not in user.roles:\n    rv = True\n    user.roles."}
+{"label":"append","msk":"if fld not in fld_seen:\n    flds.","msk_intervention":"if fld in fld_seen:\n    flds."}
+{"label":"append","msk":"if download_request not in unique_requests_map:\n    unique_requests_map[download_request] = len(unique_download_list)\n    unique_download_list.","msk_intervention":"if download_request in unique_requests_map:\n    unique_requests_map[download_request] = len(unique_download_list)\n    unique_download_list."}
+{"label":"append","msk":"if item not in new:\n    new.","msk_intervention":"if item in new:\n    new."}
+{"label":"append","msk":"if filterclass not in self.filters:\n    self.filters.","msk_intervention":"if filterclass in self.filters:\n    self.filters."}
+{"label":"remove","msk":"if self.my_hostport in new_peers:\n    new_peers.","msk_intervention":"if self.my_hostport not in new_peers:\n    new_peers."}
+{"label":"append","msk":"if field not in op_data.keys():\n    missing.","msk_intervention":"if field in op_data.keys():\n    missing."}
+{"label":"append","msk":"if field not in history_snapshot.keys():\n    missing.","msk_intervention":"if field in history_snapshot.keys():\n    missing."}
+{"label":"remove","msk":"if router in self.routes:\n    self.routes.","msk_intervention":"if router not in self.routes:\n    self.routes."}
+{"label":"remove","msk":"if value in _set:\n    _set.","msk_intervention":"if value not in _set:\n    _set."}
+{"label":"remove","msk":"if tool_name in hidden_tools:\n    hidden_tools.","msk_intervention":"if tool_name not in hidden_tools:\n    hidden_tools."}
+{"label":"remove","msk":"if self.local_packages_path in paths:\n    paths.","msk_intervention":"if self.local_packages_path not in paths:\n    paths."}
+{"label":"append","msk":"if word.text.lower() not in dump_list:\n    keep_positions.","msk_intervention":"if word.text.lower() in dump_list:\n    keep_positions."}
+{"label":"append","msk":"if operation not in self.operations:\n    self.operations.","msk_intervention":"if operation in self.operations:\n    self.operations."}
+{"label":"append","msk":"if operation not in self.ops:\n    self.ops.","msk_intervention":"if operation in self.ops:\n    self.ops."}
+{"label":"remove","msk":"if container_id in self._watching:\n    self._watching.","msk_intervention":"if container_id not in self._watching:\n    self._watching."}
+{"label":"append","msk":"if id(p) not in children_p:\n    children.","msk_intervention":"if id(p) in children_p:\n    children."}
+{"label":"remove","msk":"if o in itos:\n    itos.","msk_intervention":"if o not in itos:\n    itos."}
+{"label":"append","msk":"if a not in unique:\n    unique.add(a)\n    output.","msk_intervention":"if a in unique:\n    unique.add(a)\n    output."}
+{"label":"append","msk":"if graph_input.name not in _params:\n    shape = [val.dim_value for val in graph_input.type.tensor_type.shape.dim]\n    input_data.","msk_intervention":"if graph_input.name in _params:\n    shape = [val.dim_value for val in graph_input.type.tensor_type.shape.dim]\n    input_data."}
+{"label":"append","msk":"if child_node not in seen_nodes:\n    seen_nodes.add(child_node)\n    next_nodes.","msk_intervention":"if child_node in seen_nodes:\n    seen_nodes.add(child_node)\n    next_nodes."}
+{"label":"append","msk":"if s not in plist:\n    plist.","msk_intervention":"if s in plist:\n    plist."}
+{"label":"append","msk":"if x not in self.reverse_list[y]:\n    self.reverse_list[y].","msk_intervention":"if x in self.reverse_list[y]:\n    self.reverse_list[y]."}
+{"label":"append","msk":"if cookie.domain not in domains:\n    domains.","msk_intervention":"if cookie.domain in domains:\n    domains."}
+{"label":"append","msk":"if cookie.path not in paths:\n    paths.","msk_intervention":"if cookie.path in paths:\n    paths."}
+{"label":"remove","msk":"if role in self.roles:\n    self.roles.","msk_intervention":"if role not in self.roles:\n    self.roles."}
+{"label":"append","msk":"if e not in out:\n    out.","msk_intervention":"if e in out:\n    out."}
+{"label":"append","msk":"if param not in out:\n    out.","msk_intervention":"if param in out:\n    out."}
+{"label":"append","msk":"if item not in a:\n    result.","msk_intervention":"if item in a:\n    result."}
+{"label":"append","msk":"if target_type not in __viable_source_types_cache:\n    __vst_cached_types.","msk_intervention":"if target_type in __viable_source_types_cache:\n    __vst_cached_types."}
+{"label":"append","msk":"if generator not in __viable_source_types_cache:\n    __vstg_cached_generators.","msk_intervention":"if generator in __viable_source_types_cache:\n    __vstg_cached_generators."}
+{"label":"append","msk":"if k not in node_names:\n    keys_to_delete.","msk_intervention":"if k in node_names:\n    keys_to_delete."}
+{"label":"remove","msk":"if _id in self.history:\n    self.history.","msk_intervention":"if _id not in self.history:\n    self.history."}
+{"label":"append","msk":"if token not in words_in_train_data:\n    self._id2word.","msk_intervention":"if token in words_in_train_data:\n    self._id2word."}
+{"label":"append","msk":"if template not in self.cached:\n    self.cache_file(template)\n    self.cached.","msk_intervention":"if template in self.cached:\n    self.cache_file(template)\n    self.cached."}
+{"label":"append","msk":"if key not in self.map:\n    self.map[key] = len(self.items)\n    self.items.","msk_intervention":"if key in self.map:\n    self.map[key] = len(self.items)\n    self.items."}
+{"label":"append","msk":"if _class not in expanded_classes:\n    expanded_classes.","msk_intervention":"if _class in expanded_classes:\n    expanded_classes."}

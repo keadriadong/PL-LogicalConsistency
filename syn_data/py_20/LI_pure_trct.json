@@ -1,0 +1,20 @@
+{"label":"remove","msk":"if '__common__' in themes:\n    themes.","msk_intervention":"if '__common__' not in themes:\n    themes."}
+{"label":"append","msk":"if next_node.name not in ['barrier', 'snapshot', 'save', 'load', 'noise']:\n    support_list.","msk_intervention":"if next_node.name in ['barrier', 'snapshot', 'save', 'load', 'noise']:\n    support_list."}
+{"label":"remove","msk":"if ws in self.subscribers:\n    self.subscribers.","msk_intervention":"if ws not in self.subscribers:\n    self.subscribers."}
+{"label":"append","msk":"if from_module not in obj.node.depends:\n    obj.node.depends.","msk_intervention":"if from_module in obj.node.depends:\n    obj.node.depends."}
+{"label":"append","msk":"if dim_name not in out_dims:\n    completely_lost.","msk_intervention":"if dim_name in out_dims:\n    completely_lost."}
+{"label":"append","msk":"if category not in self.poi_category_names:\n    self.poi_category_names.","msk_intervention":"if category in self.poi_category_names:\n    self.poi_category_names."}
+{"label":"append","msk":"if bl_idx not in blocks:\n    blocks.","msk_intervention":"if bl_idx in blocks:\n    blocks."}
+{"label":"append","msk":"if 'term' not in include:\n    include.","msk_intervention":"if 'term' in include:\n    include."}
+{"label":"append","msk":"if 'students' not in include:\n    include.","msk_intervention":"if 'students' in include:\n    include."}
+{"label":"remove","msk":"if observer in self.m_observers:\n    self.m_observers.","msk_intervention":"if observer not in self.m_observers:\n    self.m_observers."}
+{"label":"append","msk":"if path not in self.paths:\n    self.paths.","msk_intervention":"if path in self.paths:\n    self.paths."}
+{"label":"remove","msk":"if flag in self.compiler_so:\n    self.compiler_so.","msk_intervention":"if flag not in self.compiler_so:\n    self.compiler_so."}
+{"label":"append","msk":"if s not in stats:\n    stats.","msk_intervention":"if s in stats:\n    stats."}
+{"label":"append","msk":"if x not in seen:\n    result.","msk_intervention":"if x in seen:\n    result."}
+{"label":"remove","msk":"if 'EGG-INFO' in dirs:\n    dirs.","msk_intervention":"if 'EGG-INFO' not in dirs:\n    dirs."}
+{"label":"append","msk":"if transformer not in self._transformers:\n    self._transformers.","msk_intervention":"if transformer in self._transformers:\n    self._transformers."}
+{"label":"remove","msk":"if transformer in self._transformers:\n    self._transformers.","msk_intervention":"if transformer not in self._transformers:\n    self._transformers."}
+{"label":"append","msk":"if checker not in self._checkers:\n    self._checkers.","msk_intervention":"if checker in self._checkers:\n    self._checkers."}
+{"label":"remove","msk":"if checker in self._checkers:\n    self._checkers.","msk_intervention":"if checker not in self._checkers:\n    self._checkers."}
+{"label":"append","msk":"if nn not in unique_dict:\n    unique.","msk_intervention":"if nn in unique_dict:\n    unique."}
